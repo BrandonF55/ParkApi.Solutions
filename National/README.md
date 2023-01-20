@@ -7,7 +7,6 @@
 ## Technologies Used
 
 
-
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
 * [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1)
 * [MySQL](https://dev.mysql.com/)
@@ -50,7 +49,7 @@ dotnet ef database update
 dotnet watch run
 ```
  #### Launch the API
-  1) Navigate to ParkApi.Solution/National directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/TravelApi.Solution/National`).
+  1) Navigate to ParkApi.Solution/National directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/ParkApi.Solution/National`).
   2) Run the command `dotnet run` to have access to the API in Postman or browser.
 
 ------------------------------
@@ -58,11 +57,9 @@ dotnet watch run
 ## API Documentation
 Explore the API endpoints in Postman or a browser. You will not be able to utilize authentication in a browser.
 
-### Using Swagger Documentation 
-To explore the Travel-Api with NSwag, launch the project using `dotnet run` with the Terminal or Powershell, and input the following URL into your browser: `http://localhost:5000/swagger`
 
 ### Endpoints
-Base URL: `https://localhost:5000`
+Base URL: `https://localhost:7165`
 
 #### HTTP Request Structure
 ```
@@ -76,32 +73,26 @@ POST /api/{component}/{id}
 #### Example Query
 
 ```
-https://localhost:5001/api/Destinations/1
 
 ```
 
 #### Sample JSON Response
-``` {
-  "destinationId": 1,
-  "name": "portland",
-  "reviews": null
-} 
+``` 
+
+
+
 ```
 
 #### Example Query
 
 ```
-https://localhost:5001/api/Reviews/5
+
 
 ```
 #### Sample JSON Response
 ``` 
-{
-  "reviewId": 5,
-  "summary": "gresham sucks",
-  "rating": 2,
-  "destinationId": 2
-}
+
+
 ```
 
 ## Known Bugs

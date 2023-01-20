@@ -97,15 +97,3 @@ namespace National.Controllers
     }
   }
 }
- 
-
-//dotnet dev-certs https
-//dotnet dev-certs https --trust
-
-//dotnet dev-certs https --clean 1
-//dotnet dev-certs https 2
-//dotnet dev-certs https --trust 3
-
-//what i get in return after i submit these commands in 
-//the terminal is A valid HTTPS certificate is already present.
-//sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain <<certificate>> next option
