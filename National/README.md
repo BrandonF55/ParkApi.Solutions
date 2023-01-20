@@ -12,11 +12,11 @@
 * [MySQL](https://dev.mysql.com/)
 * [Entity Framework Core 6.0.0](https://docs.microsoft.com/en-us/ef/core/)
 * [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio)
-* [Postman](postman.com)
+
 
 
 ### Description
-.
+.This is a basic Park Api. You can Search for State and National Parks. So you can also see the ratings and summary of the park you can to look up.
 
 ## Setup/Installation Requirements
 
@@ -97,7 +97,7 @@ POST /api/{component}/{id}
 
 ## Known Bugs
 
-* _No known issues_
+* _No known issues in APi_ I couldn't fully implement the Token Bearer Authorzation. You can access it by switching to the Auth branch on my GitHub repositorie_
 
 ## License
 
