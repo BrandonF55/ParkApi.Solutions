@@ -17,7 +17,6 @@
 
 ### Description
 .This is a basic Park Api. You can Search for State and National Parks. So you can also see the ratings and summary of the park you can to look up.
-
 ## Setup/Installation Requirements
 
 * _Clone the repository to your desktop from: https://github.com/BrandonF55/ParkApi.Solutions.git_
@@ -73,25 +72,35 @@ POST /api/{component}/{id}
 #### Example Query
 
 ```
+https://localhost:7165/api/Park/1
 
 ```
 
 #### Sample JSON Response
 ``` 
-
-
+{
+  "parkId": 1,
+  "name": "portland",
+  "states": null
+}
 
 ```
 
 #### Example Query
 
 ```
+https://localhost:7165/api/State
 
 
 ```
 #### Sample JSON Response
 ``` 
-
+{
+  "stateId": 2,
+  "summary": "portland sucks",
+  "rating": 5,
+  "parkId": 1
+}
 
 ```
 
